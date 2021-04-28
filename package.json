@@ -1,0 +1,19 @@
+{
+    "name": "@CloudCommunik/jambonz-node-sdk",
+    "version": "0.0.1",
+    "description": "Jambonz nodejs client writen in typescript",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "got": "^11.8.2"
+    }
+}
